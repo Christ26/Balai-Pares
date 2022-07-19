@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drinks"
+    android:padding="10dp"
+    tools:context=".DrinksActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="120dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#e53935"
+                android:layout_alignParentRight="true"
+                android:text="P 10.00"/>
+
+                <CheckBox
+                    android:elevation="5dp"
+                    android:id="@+id/ice_tea"
+                    android:layout_width="match_parent"
+                    android:shadowColor="@color/black"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.3"
+                    android:shadowRadius="1.6"
+                    android:paddingRight="30dp"
+                    android:layout_height="70dp"
+                    android:text="ICE TEA"
+                    android:fontFamily="@font/cafe_francoise_d"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff9800"
+                    android:gravity="center"
+                    android:background="@drawable/edittest_bg"/>
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/iceTeaquant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="How many ice tea would you like to order?"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="type here"
+                    android:inputType="number"
+                    android:digits="1234567890"
+                    android:id="@+id/quantityEtIceTea"
+                    android:textSize="13sp"
+                    android:background="@drawable/et_bg_below"/>
+
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#e53935"
+                android:layout_alignParentRight="true"
+                android:text="P 10.00"/>
+
+                <CheckBox
+                    android:elevation="5dp"
+                    android:id="@+id/pineapple"
+                    android:layout_width="match_parent"
+                    android:shadowColor="@color/black"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.3"
+                    android:shadowRadius="1.6"
+                    android:paddingRight="30dp"
+                    android:layout_height="70dp"
+                    android:text="PINEAPPLE JUICE"
+                    android:fontFamily="@font/cafe_francoise_d"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff9800"
+                    android:gravity="center"
+                    android:background="@drawable/edittest_bg"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/pApplequant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="How many Pineapple Juice would you like to order?"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="type here"
+                    android:inputType="number"
+                    android:digits="1234567890"
+                    android:id="@+id/quantityEtpApple"
+                    android:textSize="13sp"
+                    android:background="@drawable/et_bg_below"/>
+
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#e53935"
+                android:layout_alignParentRight="true"
+                android:text="P 15.00"/>
+
+                <CheckBox
+                    android:elevation="5dp"
+                    android:id="@+id/softdrinks"
+                    android:layout_width="match_parent"
+                    android:shadowColor="@color/black"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.3"
+                    android:shadowRadius="1.6"
+                    android:paddingRight="30dp"
+                    android:layout_height="70dp"
+                    android:text="SoftDrinks"
+                    android:fontFamily="@font/cafe_francoise_d"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff9800"
+                    android:gravity="center"
+                    android:background="@drawable/edittest_bg"/>
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/sDrinkquant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="How many softdrinks would you like to order?"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="type here"
+                    android:inputType="number"
+                    android:digits="1234567890"
+                    android:id="@+id/quantityEtsDrinks"
+                    android:textSize="13sp"
+                    android:background="@drawable/et_bg_below"/>
+
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#e53935"
+                android:layout_alignParentRight="true"
+                android:text="P 10.00"/>
+
+                <CheckBox
+                    android:elevation="5dp"
+                    android:id="@+id/lemon_juice"
+                    android:layout_width="match_parent"
+                    android:shadowColor="@color/black"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.3"
+                    android:shadowRadius="1.6"
+                    android:paddingRight="30dp"
+                    android:layout_height="70dp"
+                    android:text="Lemon Juice"
+                    android:fontFamily="@font/cafe_francoise_d"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff9800"
+                    android:gravity="center"
+                    android:background="@drawable/edittest_bg"/>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/lJuicequant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="How many lemon juice would you like to order?"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="type here"
+                    android:inputType="number"
+                    android:digits="1234567890"
+                    android:id="@+id/quantityEtslemon"
+                    android:textSize="13sp"
+                    android:background="@drawable/et_bg_below"/>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Again"
+            android:id="@+id/backtomenu_drinks"
+            app:backgroundTint="@null"
+            android:textSize="10sp"
+            android:background="@drawable/btn_bg"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add to Order"
+            android:layout_centerInParent="true"
+            android:id="@+id/addOrder_drinks"
+            app:backgroundTint="@null"
+            android:clickable="false"
+            android:textSize="10sp"
+            android:background="@drawable/green_bg"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_alignParentRight="true"
+            android:id="@+id/nextBtn_drinks"
+            app:backgroundTint="@null"
+            android:clickable="false"
+            android:enabled="false"
+            android:textSize="10sp"
+            android:background="@drawable/yellow_bg"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

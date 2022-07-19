@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mami"
+    android:padding="10dp"
+    tools:context=".MamiActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="120dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#e53935"
+                android:layout_alignParentRight="true"
+                android:text="P 25.00"/>
+
+                <CheckBox
+                    android:elevation="5dp"
+                    android:id="@+id/mami"
+                    android:layout_width="match_parent"
+                    android:shadowColor="@color/black"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.3"
+                    android:shadowRadius="1.6"
+                    android:paddingRight="30dp"
+                    android:layout_height="70dp"
+                    android:text="MAMI"
+                    android:fontFamily="@font/cafe_francoise_d"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff9800"
+                    android:gravity="center"
+                    android:background="@drawable/edittest_bg"/>
+            
+            </RelativeLayout>
+
+
+          
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/mami_add_ons">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="How many mami would you like to order?"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="type here"
+                        android:inputType="number"
+                        android:digits="1234567890"
+                        android:id="@+id/quantityEtMami"
+                        android:textSize="13sp"
+                        android:background="@drawable/et_bg_below"/>
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ADD ONS"
+                    android:shadowColor="@color/black"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.3"
+                    android:shadowRadius="1.6"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#ff9800"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="#e53935"
+                    android:layout_alignParentRight="true"
+                    android:text="P 10.00"/>
+
+                    <CheckBox
+                        android:elevation="5dp"
+                        android:id="@+id/egg_mami"
+                        android:layout_width="match_parent"
+                        android:shadowColor="@color/black"
+                        android:shadowDx="1.5"
+                        android:shadowDy="1.3"
+                        android:shadowRadius="1.6"
+                        android:paddingRight="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="EGG"
+                        android:fontFamily="@font/cafe_francoise_d"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#ff9800"
+                        android:gravity="center"
+                        android:background="@drawable/edittest_bg"/>
+                
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="#e53935"
+                    android:layout_alignParentRight="true"
+                    android:text="P 10.00"/>
+
+                    <CheckBox
+                        android:elevation="5dp"
+                        android:id="@+id/garlic_rice_mami"
+                        android:layout_width="match_parent"
+                        android:shadowColor="@color/black"
+                        android:shadowDx="1.5"
+                        android:shadowDy="1.3"
+                        android:shadowRadius="1.6"
+                        android:paddingRight="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="GARLIC RICE"
+                        android:fontFamily="@font/cafe_francoise_d"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#ff9800"
+                        android:gravity="center"
+                        android:background="@drawable/edittest_bg"/>
+
+
+                </RelativeLayout>
+
+               
+              
+
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#e53935"
+                android:layout_alignParentRight="true"
+                android:text="P 35.00"/>
+
+                <CheckBox
+                    android:id="@+id/beef_mami"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@drawable/edittest_bg"
+                    android:elevation="5dp"
+                    android:fontFamily="@font/cafe_francoise_d"
+                    android:gravity="center"
+                    android:paddingRight="30dp"
+                    android:shadowColor="@color/black"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.3"
+                    android:shadowRadius="1.6"
+                    android:text="BEEF MAMI"
+                    android:textColor="#ff9800"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+          
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/beef_mami_add_ons">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="How many beef mami would you like to order?"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="type here"
+                        android:inputType="number"
+                        android:digits="1234567890"
+                        android:id="@+id/quantityEtMamibeef"
+                        android:textSize="13sp"
+                        android:background="@drawable/et_bg_below"/>
+
+
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ADD ONS"
+                    android:shadowColor="@color/black"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.3"
+                    android:shadowRadius="1.6"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#ff9800"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="#e53935"
+                    android:layout_alignParentRight="true"
+                    android:text="P 10.00"/>
+
+                    <CheckBox
+                        android:elevation="5dp"
+                        android:id="@+id/egg_beef_mami"
+                        android:layout_width="match_parent"
+                        android:shadowColor="@color/black"
+                        android:shadowDx="1.5"
+                        android:shadowDy="1.3"
+                        android:shadowRadius="1.6"
+                        android:paddingRight="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="EGG"
+                        android:fontFamily="@font/cafe_francoise_d"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#ff9800"
+                        android:gravity="center"
+                        android:background="@drawable/edittest_bg"/>
+                
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="#e53935"
+                    android:layout_alignParentRight="true"
+                    android:text="P 10.00"/>
+
+                    <CheckBox
+                        android:elevation="5dp"
+                        android:id="@+id/garlic_rice_beef_mami"
+                        android:layout_width="match_parent"
+                        android:shadowColor="@color/black"
+                        android:shadowDx="1.5"
+                        android:shadowDy="1.3"
+                        android:shadowRadius="1.6"
+                        android:paddingRight="30dp"
+                        android:layout_height="wrap_content"
+                        android:text="GARLIC RICE"
+                        android:fontFamily="@font/cafe_francoise_d"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#ff9800"
+                        android:gravity="center"
+                        android:background="@drawable/edittest_bg"/>
+
+
+                </RelativeLayout>
+
+               
+               
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Again"
+            android:id="@+id/backtomenu_mami"
+            app:backgroundTint="@null"
+            android:textSize="10sp"
+            android:background="@drawable/btn_bg"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add to Order"
+            android:clickable="false"
+            android:layout_centerInParent="true"
+            android:id="@+id/addOrder_mami"
+            app:backgroundTint="@null"
+            android:textSize="10sp"
+            android:background="@drawable/green_bg"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_alignParentRight="true"
+            android:id="@+id/nextBtn_mami"
+            android:clickable="false"
+            app:backgroundTint="@null"
+            android:textSize="10sp"
+            android:background="@drawable/yellow_bg"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

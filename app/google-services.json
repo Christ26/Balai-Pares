@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "192481193025",
+    "project_id": "balai-pares",
+    "storage_bucket": "balai-pares.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192481193025:android:be67d79af86dfcc77daac0",
+        "android_client_info": {
+          "package_name": "com.app.balaipares"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192481193025-ncb9090fdf2ev55tgqqe1vf5f1fd6als.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHBcHVP62npxOPt7zJVG9LxRwlRO4y1C8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192481193025-ncb9090fdf2ev55tgqqe1vf5f1fd6als.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
